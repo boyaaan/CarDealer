@@ -1,0 +1,10 @@
+﻿@model int
+
+@{ 
+    ViewData["Title"] = "Delete Part";
+}
+
+<h2>Are you sure to delete this part?</h2>
+
+<a href="/parts/destroy/@Model" class="btn btn-danger">Comfirm Delete</a>
+<a href="/parts/all" class="btn btn-default">Back</a>
